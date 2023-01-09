@@ -1,0 +1,12 @@
+
+train: ../train_data/images/train/  # train images 
+val: ../train_data/images/val/  # val images 
+test:  # test images (optional)
+
+# Classes
+nc: 1  # number of classes
+names: [ 'Cattle' ]  # class names
+
+
+# Download script/URL (optional)
+download: https://github.com/ultralytics/yolov5/releases/download/v1.0/coco128.zip
